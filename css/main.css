@@ -223,9 +223,16 @@ p {
 .prices .price-box span {
   font-weight: bold;
 }
-.prices .price-box button {
+.prices .price-box btn {
+  transition: background-color 0.3s;
   padding: 10px 20px;
   text-transform: uppercase;
+}
+.prices .price-box button {
+  transition: background-color 0.4s;
+}
+.prices .price-box button:hover {
+  background-color: #039dff;
 }
 .prices .price-tag {
   font-weight: bold;

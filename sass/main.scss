@@ -1,5 +1,5 @@
-@use "./colors" as *;
-@use "./animations" as *;
+@use './colors' as *;
+@use './animations' as *;
 
 * {
 	box-sizing: border-box;
@@ -12,7 +12,7 @@ html {
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	background-color: $bg-color;
 	overflow-x: hidden;
 }
@@ -137,7 +137,7 @@ p {
 
 .aboutus-hero {
 	position: relative;
-	background-image: url("../img/technology-small-640.jpg");
+	background-image: url('../img/technology-small-640.jpg');
 	background-size: cover;
 	background-position: center;
 	color: $light-grey;
@@ -197,9 +197,18 @@ p {
 			font-weight: bold;
 		}
 
-		button {
+		btn {
+			transition: background-color 0.3s;
 			padding: 10px 20px;
 			text-transform: uppercase;
+		}
+
+		button {
+			transition: background-color 0.4s;
+		}
+
+		button:hover {
+			background-color: $main-color;
 		}
 	}
 	.price-tag {
@@ -229,7 +238,7 @@ p {
 
 .team {
 	position: relative;
-	background-image: url("../img/team/background.jpeg");
+	background-image: url('../img/team/background.jpeg');
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 0;
@@ -297,7 +306,7 @@ p {
 
 .contact {
 	position: relative;
-	background-image: url("../img/nyc-1920.jpg");
+	background-image: url('../img/nyc-1920.jpg');
 	background-position: bottom;
 	background-size: cover;
 	background-attachment: fixed;
@@ -373,7 +382,7 @@ footer {
 	}
 
 	.aboutus-hero {
-		background-image: url("../img/technology-big-1920.jpg");
+		background-image: url('../img/technology-big-1920.jpg');
 	}
 }
 
