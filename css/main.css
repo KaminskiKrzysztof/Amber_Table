@@ -308,6 +308,21 @@ p {
   color: white;
   text-shadow: 0 0 5px rgb(0, 0, 0);
 }
+.achievements-list .fa-js {
+  color: yellow;
+}
+.achievements-list .fa-html5 {
+  color: red;
+}
+.achievements-list .fa-css3-alt {
+  color: blue;
+}
+.achievements-list .fa-react {
+  color: lightblue;
+}
+.achievements-list .fa-bootstrap {
+  color: rgb(150, 31, 150);
+}
 .achievements-list .achievement-number {
   font-size: 22px;
 }
