@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #ebecf2;
   overflow-x: hidden;
 }
@@ -134,9 +134,7 @@ nav a.navbar-brand:hover {
   align-items: center;
   flex-direction: column;
   height: 100%;
-}
-.hero-text h1 {
-  text-transform: uppercase;
+  font-family: "Poppins";
 }
 
 .hero-shadow {
@@ -175,7 +173,7 @@ p {
 
 .aboutus-hero {
   position: relative;
-  background-image: url("../img/technology-small-640.jpg");
+  background-image: url("../img/bgcfood.jpg");
   background-size: cover;
   background-position: center;
   color: #ddd;
@@ -404,7 +402,7 @@ footer p {
     scroll-padding-top: 72px;
   }
   .aboutus-hero {
-    background-image: url("../img/technology-big-1920.jpg");
+    background-image: url("../img/bgcfood.jpg");
   }
 }
 @media (min-width: 1200px) {
